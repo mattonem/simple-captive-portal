@@ -1,0 +1,8 @@
+* TODOLIST
+- [ ] Define and create config file 
+- [ ] Fix script calling path
+- [ ] Create site config for apache
+- [ ] Create setup script
+  - [ ] Auto-generate iptables.rules
+  - [ ] Setup apache
+  - [ ] Install it as a service
