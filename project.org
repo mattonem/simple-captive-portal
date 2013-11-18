@@ -1,5 +1,5 @@
 * TODOLIST
-- [ ] Define and create config file 
+- [X] Define and create config file 
 - [ ] Fix script calling path
 - [ ] Create site config for apache
 - [ ] Create setup script
