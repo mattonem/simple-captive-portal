@@ -9,3 +9,10 @@ solution for Debian distribution (firstly designed for raspberrypi).
 - iptables
 - php5
 - conntrack
+
+# Requirements
+
+The portal user and www-data must be sudoers for :
+- iptables
+- conntrack
+- arp
