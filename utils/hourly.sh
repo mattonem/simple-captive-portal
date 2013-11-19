@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+. ../conf.ini
 while read user mac time
 do 
     if [ "$user" != "" ]; then

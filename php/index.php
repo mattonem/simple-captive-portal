@@ -1,3 +1,7 @@
+<?php
+$ini_array = parse_ini_file("../conf.ini");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,8 +10,8 @@
   <link href="./bootstrap.min.css" rel="stylesheet" media="screen">
    
 <?php
-   // capture their IP address
-   $ip = $_SERVER['REMOTE_ADDR'];
+// capture their IP address
+$ip = $_SERVER['REMOTE_ADDR'];
 
 // this is the path to the arp command used to get user MAC address 
 // from it's IP address in linux environment.
