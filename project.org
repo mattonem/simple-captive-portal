@@ -1,8 +1,11 @@
 * TODOLIST
 - [X] Define and create config file 
-- [ ] Fix script calling path
+- [-] Fix script calling path
+  - [X] for utils
+  - [ ] for php
 - [ ] Create site config for apache
 - [ ] Create setup script
   - [ ] Auto-generate iptables.rules
   - [ ] Setup apache
   - [ ] Install it as a service
+  - [ ] Execute hourly.sh on schedul
