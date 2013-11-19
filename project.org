@@ -1,8 +1,8 @@
 * TODOLIST
 - [X] Define and create config file 
-- [-] Fix script calling path
+- [X] Fix script calling path
   - [X] for utils
-  - [ ] for php
+  - [X] for php
 - [ ] Create site config for apache
 - [ ] Create setup script
   - [ ] Auto-generate iptables.rules

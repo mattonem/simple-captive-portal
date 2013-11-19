@@ -37,7 +37,7 @@ if(isset($_POST['username']) && isset($_POST['passwd']))
     $passwd = $_POST['passwd'];
     if(isset($users[$user]) && $users[$user] == $passwd) 
       {
-	exec('/home/portal/grantaccess.sh '.strtoupper($mac).' '.$user);
+	exec($ini_array['BASE_PATH'].'/grantaccess.sh '.strtoupper($mac).' '.$user);
 	if(isset($_GET['add']))
 	  {
 	      ?>
