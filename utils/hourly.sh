@@ -6,8 +6,8 @@ do
 	now=$(date +%s)
 	delta=$(($now-$time))
 	if [ "$delta" -gt "14400" ]; then
-	        /home/portal/rmaccess.sh $mac
-		fi
+	        $BASE_PATH/utils/rmaccess.sh $mac
+	fi
     fi
-done < /home/portal/access
+done < $BASE_PATH/access
 sudo conntrack -D
